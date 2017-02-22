@@ -1,5 +1,8 @@
 package spring.beans;
 
+import org.springframework.context.annotation.EnableMBeanExport;
+
+@EnableMBeanExport
 public class LoginBean {
 
 	public LoginBean() {
