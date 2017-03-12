@@ -1,8 +1,8 @@
 package spring.beans;
 
-import org.springframework.context.annotation.EnableMBeanExport;
+import org.springframework.stereotype.Component;
 
-@EnableMBeanExport
+@Component
 public class LoginBean {
 
 	public LoginBean() {
